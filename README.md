@@ -46,13 +46,18 @@ sudo apt upgrade
  rosrun vehicle_sim_launcher setup.sh
  ```
  
- 7- Run Simple walls environment
+ 7- Make python code executable
+ ```
+ cd ~/catkin_ws/src/slam_code/scripts
+ chmod 777 slamcode.py
+ ```
+ 8- Run Simple walls environment
  ```
  roslaunch vehicle_sim_launcher walls.launch
  ```
  ![ Walls ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/walls.PNG)
  
- 8- Run complex city environment
+ 9- Run complex city environment
  ```
  roslaunch vehicle_sim_launcher city.launch
  ```
@@ -83,7 +88,6 @@ sample code exists in: ```~/catkin_ws/src/slam_code/scripts```
   - Your SLAM code needs to be added to a script like this.
 
 NOTE: This code is included in launch files, so runs once you do step 7 or 8.
-
 -------------------------------------------------------------------------------------------
 # Citation
 
