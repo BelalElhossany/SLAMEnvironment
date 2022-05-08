@@ -69,8 +69,10 @@ Once you launch it, 3 windows will pop up:
     3- Funny arrow representing IMU readings.
     4- Image to show camera output.
     Your map needs to be added to the list :)
+    
     ![ Rviz ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/rviz.PNG)
   - Window to control vehicle velocity and steering.
+  - 
     ![ Vehicle ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/control.PNG)
 
 -------------------------------------------------------------------------------------------
@@ -81,3 +83,8 @@ sample code exists in: ```~/catkin_ws/src/slam_code/scripts```
   - Your SLAM code needs to be added to a script like this.
 
 NOTE: This code is included in launch files, so runs once you do step 7 or 8.
+
+-------------------------------------------------------------------------------------------
+# Citation
+
+this is a modified version of this repo ```https://github.com/yukkysaito/vehicle_sim```.
