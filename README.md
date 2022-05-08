@@ -1,6 +1,7 @@
 # SLAMEnvironment
 
 Vehicle model with (3D lidar, IMU and Camera sensors) can be simulated in 2 different maps.
+![ Vehicle ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/vehicle.PNG)
 
 # How to run
 
@@ -49,11 +50,13 @@ sudo apt upgrade
  ```
  roslaunch vehicle_sim_launcher walls.launch
  ```
+ ![ Walls ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/walls.PNG)
  
  8- Run complex city environment
  ```
  roslaunch vehicle_sim_launcher city.launch
  ```
+ ![ City ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/city.PNG)
  
  NOTE: add ```gpu:=true ``` to roslaunch command to use gpu.
 
@@ -66,7 +69,9 @@ Once you launch it, 3 windows will pop up:
     3- Funny arrow representing IMU readings.
     4- Image to show camera output.
     Your map needs to be added to the list :)
+    ![ Rviz ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/rviz.PNG)
   - Window to control vehicle velocity and steering.
+    ![ Vehicle ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/control.PNG)
 
 -------------------------------------------------------------------------------------------
 # Sample code
