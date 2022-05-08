@@ -83,3 +83,8 @@ sample code exists in: ```~/catkin_ws/src/slam_code/scripts```
   - Your SLAM code needs to be added to a script like this.
 
 NOTE: This code is included in launch files, so runs once you do step 7 or 8.
+
+-------------------------------------------------------------------------------------------
+# Citation
+
+this is a modified version of this repo ```https://github.com/yukkysaito/vehicle_sim```.
