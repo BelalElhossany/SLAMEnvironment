@@ -69,8 +69,10 @@ Once you launch it, 3 windows will pop up:
     3- Funny arrow representing IMU readings.
     4- Image to show camera output.
     Your map needs to be added to the list :)
+    
     ![ Rviz ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/rviz.PNG)
   - Window to control vehicle velocity and steering.
+  - 
     ![ Vehicle ](https://github.com/BelalElhossany/SLAMEnvironment/blob/main/images/control.PNG)
 
 -------------------------------------------------------------------------------------------
