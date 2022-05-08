@@ -26,7 +26,7 @@ Vehicle model with (3D lidar, IMU and Camera sensors) can be simulated in 2 diff
  
  4- Install dependencies
  ```
- cd ~/catkin_ws/src/vehicle_sim
+ cd ~/catkin_ws/src/SLAMEnvironment/vehicle_sim
  rosdep install --from-paths . -y
  ```
  
@@ -48,7 +48,7 @@ sudo apt upgrade
  
  7- Make python code executable
  ```
- cd ~/catkin_ws/src/slam_code/scripts
+ cd ~/catkin_ws/src/SLAMEnvironment/slam_code/scripts
  chmod 777 slamcode.py
  ```
  8- Run Simple walls environment
