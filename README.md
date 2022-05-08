@@ -21,7 +21,7 @@ Vehicle model with (3D lidar, IMU and Camera sensors) can be simulated in 2 diff
  3- Clone the repo
  ```
  cd ~/catkin_ws/src
- git clone 
+ git clone https://github.com/BelalElhossany/SLAMEnvironment.git
  ```
  
  4- Install dependencies
@@ -33,7 +33,7 @@ Vehicle model with (3D lidar, IMU and Camera sensors) can be simulated in 2 diff
  5- Build
  ```
  catkin_make
- source "your catkin workspace"/devel/setup.bash
+ source ~/catkin_ws/devel/setup.bash
  ```
  6- upgrade gazebo version and download gazebo models
  ```
