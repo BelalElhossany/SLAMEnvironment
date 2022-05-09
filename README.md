@@ -14,6 +14,7 @@ Vehicle model with (3D lidar, IMU and Camera sensors) can be simulated in 2 diff
  NOTE: Choose Desktop-Full Install in section 1.4 to install gazebo with ROS
  
  2- Create catkin workspace
+ NOTE: don't follow install catkin link, you don't have to explicitly install it.
  ```
  http://wiki.ros.org/catkin/Tutorials/create_a_workspace
  ```
