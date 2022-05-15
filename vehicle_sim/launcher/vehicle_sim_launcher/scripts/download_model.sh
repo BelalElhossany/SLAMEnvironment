@@ -7,7 +7,7 @@ if [ -e /tmp/gazebo_models ]; then
   echo "removing /tmp/gazebo_models"
   rm -r /tmp/gazebo_models
 fi
-hg clone https://bitbucket.org/osrf/gazebo_models /tmp/gazebo_models
+git clone https://github.com/osrf/gazebo_models /tmp/gazebo_models
 
 if [ -e /tmp/gazebo_models ]; then
   echo "Install generic gazebo models"
